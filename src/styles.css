@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  background-color: #222;
+  color: #eee;
+}
+
+.root {
+  position: relative;
+  width: 728px;
+}
+
+.button {
+  inset: 0;
+  top: 0;
+  left: 0;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  border: 5px solid cyan;
+  display: none;
+}
+
+.c1 {
+  top: 2%;
+  left: 36%;
+}
+
+.c2 {
+  top: 10%;
+  right: 17%;
+}
+
+.c3 {
+  top: 35%;
+  right: 5%;
+}
+
+.c4 {
+  top: 60%;
+  right: 15%;
+}
+
+.c5 {
+  bottom: 0%;
+  right: 39%;
+}
+
+.c6 {
+  bottom: 12%;
+  left: 15%;
+}
+
+.c7 {
+  bottom: 35%;
+  left: 7%;
+}
+
+.c8 {
+  bottom: 60%;
+  left: 15%;
+}
+
+#text {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  font-size: 2rem;
+  color: orange;
+  font-family: "Comic Sans MS";
+}
+
+.mech {
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 60%;
+  left: 42%;
+  opacity: 0.6;
+  border-radius: 50%;
+  display: none;
+}
